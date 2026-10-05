@@ -1,0 +1,53 @@
+.chat,
+.chatActive {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+  color: inherit;
+  padding: 0.7rem 0.75rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.chatActive {
+  border-color: var(--border);
+  background: var(--panel-raised);
+}
+
+.phone {
+  font-weight: 600;
+}
+
+.previewRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.preview {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge {
+  flex: none;
+  min-width: 1.25rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  padding: 0 0.35rem;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  text-align: center;
+}

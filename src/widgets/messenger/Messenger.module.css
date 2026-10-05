@@ -1,0 +1,24 @@
+.shell {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .shell > :last-child {
+    display: none;
+  }
+
+  .chatOpen > :first-child {
+    display: none;
+  }
+
+  .chatOpen > :last-child {
+    display: flex;
+  }
+}

@@ -1,0 +1,32 @@
+.incoming,
+.outgoing {
+  max-width: min(70%, 420px);
+  padding: 0.65rem 0.8rem;
+  border-radius: 14px;
+}
+
+.incoming {
+  align-self: flex-start;
+  background: var(--incoming);
+}
+
+.outgoing {
+  align-self: flex-end;
+  background: var(--outgoing);
+}
+
+.text {
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.meta {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.failed {
+  color: var(--danger);
+}

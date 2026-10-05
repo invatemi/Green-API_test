@@ -1,0 +1,19 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.field input {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #141414;
+  color: var(--text);
+  padding: 0.65rem 0.75rem;
+}
+
+.field input::placeholder {
+  color: #6f6f6f;
+}
